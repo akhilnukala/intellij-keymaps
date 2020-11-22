@@ -82,6 +82,7 @@
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="ctrl end" />
     <keyboard-shortcut first-keystroke="ctrl alt page_down" />
+    <keyboard-shortcut first-keystroke="ctrl page_down" />
   </action>
   <action id="EditorLineEndWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl end" />
@@ -90,6 +91,7 @@
   <action id="EditorLineStart">
     <keyboard-shortcut first-keystroke="ctrl home" />
     <keyboard-shortcut first-keystroke="ctrl alt page_up" />
+    <keyboard-shortcut first-keystroke="ctrl page_up" />
   </action>
   <action id="EditorLineStartWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl home" />
