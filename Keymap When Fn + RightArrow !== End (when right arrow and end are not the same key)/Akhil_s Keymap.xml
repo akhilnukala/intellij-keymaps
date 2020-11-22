@@ -36,14 +36,14 @@
     <keyboard-shortcut first-keystroke="ctrl alt minus" />
   </action>
   <action id="CollapseAllRegions">
-    <keyboard-shortcut first-keystroke="ctrl alt comma" />
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
   </action>
   <action id="CollapseBlock" />
   <action id="CollapseRegion">
-    <keyboard-shortcut first-keystroke="ctrl comma" />
+    <keyboard-shortcut first-keystroke="ctrl alt open_bracket" />
   </action>
   <action id="CollapseRegionRecursively">
-    <keyboard-shortcut first-keystroke="shift ctrl comma" />
+    <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
   </action>
   <action id="CollapseSelection">
     <keyboard-shortcut first-keystroke="ctrl alt back_slash" />
@@ -61,12 +61,16 @@
     <keyboard-shortcut first-keystroke="ctrl alt down" />
   </action>
   <action id="EditorCodeBlockEnd">
-    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
-    <keyboard-shortcut first-keystroke="ctrl alt close_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl alt period" />
+  </action>
+  <action id="EditorCodeBlockEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl period" />
   </action>
   <action id="EditorCodeBlockStart">
-    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
-    <keyboard-shortcut first-keystroke="ctrl alt open_bracket" />
+    <keyboard-shortcut first-keystroke="ctrl alt comma" />
+  </action>
+  <action id="EditorCodeBlockStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl comma" />
   </action>
   <action id="EditorDownWithSelection">
     <keyboard-shortcut first-keystroke="shift down" />
@@ -77,7 +81,7 @@
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="ctrl end" />
-    <keyboard-shortcut first-keystroke="ctrl page_down" />
+    <keyboard-shortcut first-keystroke="ctrl alt page_down" />
   </action>
   <action id="EditorLineEndWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl end" />
@@ -85,15 +89,19 @@
   </action>
   <action id="EditorLineStart">
     <keyboard-shortcut first-keystroke="ctrl home" />
-    <keyboard-shortcut first-keystroke="ctrl page_up" />
+    <keyboard-shortcut first-keystroke="ctrl alt page_up" />
   </action>
   <action id="EditorLineStartWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl home" />
     <keyboard-shortcut first-keystroke="shift ctrl page_up" />
   </action>
-  <action id="EditorMoveToPageBottom" />
+  <action id="EditorMoveToPageBottom">
+    <keyboard-shortcut first-keystroke="ctrl period" />
+  </action>
   <action id="EditorMoveToPageBottomWithSelection" />
-  <action id="EditorMoveToPageTop" />
+  <action id="EditorMoveToPageTop">
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+  </action>
   <action id="EditorMoveToPageTopWithSelection" />
   <action id="EditorScrollDown" />
   <action id="EditorScrollUp" />
@@ -112,13 +120,13 @@
     <keyboard-shortcut first-keystroke="shift ctrl up" />
   </action>
   <action id="ExpandAllRegions">
-    <keyboard-shortcut first-keystroke="ctrl alt period" />
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
   </action>
   <action id="ExpandRegion">
-    <keyboard-shortcut first-keystroke="ctrl period" />
+    <keyboard-shortcut first-keystroke="ctrl alt close_bracket" />
   </action>
   <action id="ExpandRegionRecursively">
-    <keyboard-shortcut first-keystroke="shift ctrl period" />
+    <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
   </action>
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
